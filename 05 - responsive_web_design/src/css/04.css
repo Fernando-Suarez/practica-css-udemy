@@ -1,0 +1,15 @@
+.oferta {
+	background-color: #00446e;
+	text-align: center;
+	padding: 4rem;
+}
+.precio {
+	font-size: 6rem;
+	margin: 0;
+}
+/* medias queries entre 2 elementos  con and, si se quiere agragar otro elemento se utiliza una , */
+@media (min-width: 600px) and (max-width: 800px), (min-width: 1200px) {
+	.oferta {
+		background-color: yellow;
+	}
+}

@@ -1,0 +1,26 @@
+/* desktop first - comenzar el diseño en una pantalla grande y despues ir agregando las queries hasta llegar a mobile */
+
+.oferta {
+	background-color: #00446e;
+	padding: 2rem;
+	text-align: center;
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+.precio {
+	font-size: 6rem;
+	margin: 0;
+}
+
+@media (max-width: 800px) {
+	.oferta {
+		max-width: 40rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.oferta {
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,8 @@
+/* seleciciona todos los elementos menos uno o unos */
+p:not(.texto) {
+	color: red;
+}
+
+p:not(.texto):not(.oferta) {
+	color: blue;
+}

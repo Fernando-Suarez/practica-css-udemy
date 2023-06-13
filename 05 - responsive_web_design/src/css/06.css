@@ -1,0 +1,21 @@
+/* tamaños por convencion  */
+
+/* mobile */
+@media (min-width: 550px) {
+}
+
+/* tablet */
+@media (min-width: 768px) {
+}
+
+/* landscape */
+@media (min-width: 1024px) {
+}
+
+/* laptop */
+@media (min-width: 1200px) {
+}
+
+/* tv */
+@media (min-width: 1600px) {
+}

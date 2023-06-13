@@ -1,0 +1,5 @@
+/* creacion de shorthand, presionar ctrl shift p o ingresar en help Show all comands y seleccionar user snipet
+sintaxis ej : "media query": {
+    "prefix": "mq",
+    "body": ["@media (min-width: $1) {\n\t$2\n}"]
+} */

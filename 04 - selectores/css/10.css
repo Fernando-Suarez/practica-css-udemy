@@ -1,0 +1,19 @@
+/* [atributo] -  ^ todos los que inician con - $ todos los que finalizan con  */
+
+/* atributo */
+a[href="http://www.google.com"]
+{
+	color: red;
+}
+
+/* ^ inicio */
+
+a[href^='http'] {
+	color: blue;
+}
+
+/* $ final */
+
+a[href$='.com'] {
+	color: magenta;
+}

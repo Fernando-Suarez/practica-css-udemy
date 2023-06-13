@@ -1,0 +1,7 @@
+ul li:last-child {
+	color: magenta;
+}
+
+ul li:last-of-type {
+	background-color: cornflowerblue;
+}

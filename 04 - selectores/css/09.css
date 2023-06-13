@@ -1,0 +1,4 @@
+/* primer elemento despues del primer nivel de hijos */
+.admin > div + p {
+	background-color: red;
+}

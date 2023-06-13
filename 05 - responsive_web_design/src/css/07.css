@@ -1,0 +1,7 @@
+.contenedor-responsive {
+	background-color: white;
+	height: 400px;
+	width: 90%; /*o usar min(90%, 1000px) para sacar max-width*/
+	max-width: 1000px;
+	margin: 0 auto;
+}
