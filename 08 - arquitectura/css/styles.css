@@ -1,0 +1,81 @@
+:root {
+	--white: #ffffff;
+	--black: #111111;
+	--grey: #343a40;
+
+	--primaryFont: 'Raleway', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: var(--primaryFont);
+	font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+	margin: 1rem 0 4rem 0;
+	font-weight: 900;
+}
+
+h1 {
+	font-size: 4.8rem;
+}
+
+h2 {
+	font-size: 5.8rem;
+}
+
+h3 {
+	font-size: 5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.container {
+	max-width: 120rem;
+	width: 90%;
+}
+
+.btn {
+	background-color: var(--white);
+	color: var(--grey);
+	border: 1px solid var(--grey);
+	padding: 0.5rem 2rem;
+	transition-property: background-color;
+	transition-duration: 0.3s;
+}
+
+.btn:hover {
+	background-color: var(--grey);
+	color: var(--white);
+}
+
+/* Utilidades */
+
+.text-center {
+	text-align: center;
+}
+.mt-5 {
+	margin-top: 5rem;
+}
+
+/* Header */
